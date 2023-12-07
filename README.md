@@ -1,2 +1,2 @@
-# python_mariadb_simple_crud
-Flask/MariaDB Simple CRUD
+# python_mariadb_crud
+ Simple Python Crud
