@@ -18,7 +18,7 @@ def get_cars():
   return make_response(error, 200)
  
 @app.get("/api/cars/<int:car_id>")
-def get_car(car_id):
+def get_car_by_id(car_id):
  try:
   result = run_statement('CALL get_car_by_id(?)', [car_id])
   formatted_car = serialize_data(car_columns, result)[0]
